@@ -14,3 +14,20 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# create shopping lists
+shopping_list_me = ["milk", "eggs", "bacon", "beer"]
+shopping_list_eng = ["beer", "wine", "tacos"]
+
+# print shopping lists to screen
+puts shopping_list_me
+puts shopping_list_eng
+
+# combine shopping lists into one list
+party_list = shopping_list_me + shopping_list_eng
+puts party_list
+
+# remove duplicates 
+party_list_no_dupes = party_list.uniq
+puts party_list_no_dupes
+
